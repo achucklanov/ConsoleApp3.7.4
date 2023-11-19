@@ -16,7 +16,15 @@
             var Bd = Console.ReadLine();
             Console.WriteLine("Your birthdate is {0}", Bd);
 
-            Console.ReadKey();
+            Console.WriteLine("What is your favorite day of week?");
+            DayOfWeek day = (DayOfWeek) int.Parse(Console.ReadLine());
+            Console.WriteLine("Your favorite day of week is {0}", day);
+
+            DayOfWeek day1 = (DayOfWeek) 1;
+            Console.WriteLine( day1 );
+
+
+            //Console.ReadKey();
         }
     }
 }
